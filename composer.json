@@ -1,0 +1,16 @@
+{
+  "name": "LoveLetter",
+  "type" : "project",
+  "require": {
+    "illuminate/database": "5.0.*",
+    "slim/slim":"2.*",
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "Game": "src",
+      "conf" : "src"
+    }
+  }
+
+}
