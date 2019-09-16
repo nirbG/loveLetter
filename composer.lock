@@ -4,64 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "3c97157d0f5e0a3875938b00a35d027d",
+    "content-hash": "33f0884a3a4c1afa53b5564cdc1c9a3f",
     "packages": [
-        {
-            "name": "danielstjules/stringy",
-            "version": "1.10.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/danielstjules/Stringy.git",
-                "reference": "4749c205db47ee5b32e8d1adf6d9aff8db6caf3b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/danielstjules/Stringy/zipball/4749c205db47ee5b32e8d1adf6d9aff8db6caf3b",
-                "reference": "4749c205db47ee5b32e8d1adf6d9aff8db6caf3b",
-                "shasum": ""
-            },
-            "require": {
-                "ext-mbstring": "*",
-                "php": ">=5.3.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~4.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Stringy\\": "src/"
-                },
-                "files": [
-                    "src/Create.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Daniel St. Jules",
-                    "email": "danielst.jules@gmail.com",
-                    "homepage": "http://www.danielstjules.com"
-                }
-            ],
-            "description": "A string manipulation library with multibyte support",
-            "homepage": "https://github.com/danielstjules/Stringy",
-            "keywords": [
-                "UTF",
-                "helpers",
-                "manipulation",
-                "methods",
-                "multibyte",
-                "string",
-                "utf-8",
-                "utility",
-                "utils"
-            ],
-            "time": "2015-07-23T00:54:12+00:00"
-        },
         {
             "name": "doctrine/inflector",
             "version": "v1.1.0",
@@ -131,26 +75,26 @@
         },
         {
             "name": "illuminate/container",
-            "version": "v5.0.33",
+            "version": "v5.3.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
-                "reference": "aa85c752eb7c6ccc2c6ffc5bfffb3ba8dd9719d6"
+                "reference": "8047b47e1f731c975d9aa0fe0b269064d3f1346d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/container/zipball/aa85c752eb7c6ccc2c6ffc5bfffb3ba8dd9719d6",
-                "reference": "aa85c752eb7c6ccc2c6ffc5bfffb3ba8dd9719d6",
+                "url": "https://api.github.com/repos/illuminate/container/zipball/8047b47e1f731c975d9aa0fe0b269064d3f1346d",
+                "reference": "8047b47e1f731c975d9aa0fe0b269064d3f1346d",
                 "shasum": ""
             },
             "require": {
-                "illuminate/contracts": "5.0.*",
-                "php": ">=5.4.0"
+                "illuminate/contracts": "5.3.*",
+                "php": ">=5.6.4"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.0-dev"
+                    "dev-master": "5.3-dev"
                 }
             },
             "autoload": {
@@ -165,34 +109,34 @@
             "authors": [
                 {
                     "name": "Taylor Otwell",
-                    "email": "taylorotwell@gmail.com"
+                    "email": "taylor@laravel.com"
                 }
             ],
             "description": "The Illuminate Container package.",
-            "homepage": "http://laravel.com",
-            "time": "2015-05-29T20:16:27+00:00"
+            "homepage": "https://laravel.com",
+            "time": "2016-10-02T01:14:30+00:00"
         },
         {
             "name": "illuminate/contracts",
-            "version": "v5.0.33",
+            "version": "v5.3.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
-                "reference": "b8b11d78724a6f8a62be3b1dfa20fa372f861398"
+                "reference": "ce5d73c6015b2054d32f3f8530767847b358ae4e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/contracts/zipball/b8b11d78724a6f8a62be3b1dfa20fa372f861398",
-                "reference": "b8b11d78724a6f8a62be3b1dfa20fa372f861398",
+                "url": "https://api.github.com/repos/illuminate/contracts/zipball/ce5d73c6015b2054d32f3f8530767847b358ae4e",
+                "reference": "ce5d73c6015b2054d32f3f8530767847b358ae4e",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.4.0"
+                "php": ">=5.6.4"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.0-dev"
+                    "dev-master": "5.3-dev"
                 }
             },
             "autoload": {
@@ -207,44 +151,46 @@
             "authors": [
                 {
                     "name": "Taylor Otwell",
-                    "email": "taylorotwell@gmail.com"
+                    "email": "taylor@laravel.com"
                 }
             ],
             "description": "The Illuminate Contracts package.",
-            "homepage": "http://laravel.com",
-            "time": "2015-05-15T07:22:28+00:00"
+            "homepage": "https://laravel.com",
+            "time": "2016-09-26T20:36:27+00:00"
         },
         {
             "name": "illuminate/database",
-            "version": "v5.0.33",
+            "version": "v5.3.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/database.git",
-                "reference": "6d79bb678a91123a15418863af901d2145b50349"
+                "reference": "8db1197b3d3e8a7393153643774d2924cdc6d906"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/database/zipball/6d79bb678a91123a15418863af901d2145b50349",
-                "reference": "6d79bb678a91123a15418863af901d2145b50349",
+                "url": "https://api.github.com/repos/illuminate/database/zipball/8db1197b3d3e8a7393153643774d2924cdc6d906",
+                "reference": "8db1197b3d3e8a7393153643774d2924cdc6d906",
                 "shasum": ""
             },
             "require": {
-                "illuminate/container": "5.0.*",
-                "illuminate/contracts": "5.0.*",
-                "illuminate/support": "5.0.*",
-                "nesbot/carbon": "~1.0",
-                "php": ">=5.4.0"
+                "illuminate/container": "5.3.*",
+                "illuminate/contracts": "5.3.*",
+                "illuminate/support": "5.3.*",
+                "nesbot/carbon": "~1.20",
+                "php": ">=5.6.4"
             },
             "suggest": {
                 "doctrine/dbal": "Required to rename columns and drop SQLite columns (~2.4).",
-                "illuminate/console": "Required to use the database commands (5.0.*).",
-                "illuminate/events": "Required to use the observers with Eloquent (5.0.*).",
-                "illuminate/filesystem": "Required to use the migrations (5.0.*)."
+                "fzaninotto/faker": "Required to use the eloquent factory builder (~1.4).",
+                "illuminate/console": "Required to use the database commands (5.3.*).",
+                "illuminate/events": "Required to use the observers with Eloquent (5.3.*).",
+                "illuminate/filesystem": "Required to use the migrations (5.3.*).",
+                "illuminate/pagination": "Required to paginate the result set (5.3.*)."
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.0-dev"
+                    "dev-master": "5.3-dev"
                 }
             },
             "autoload": {
@@ -259,48 +205,52 @@
             "authors": [
                 {
                     "name": "Taylor Otwell",
-                    "email": "taylorotwell@gmail.com"
+                    "email": "taylor@laravel.com"
                 }
             ],
             "description": "The Illuminate Database package.",
-            "homepage": "http://laravel.com",
+            "homepage": "https://laravel.com",
             "keywords": [
                 "database",
                 "laravel",
                 "orm",
                 "sql"
             ],
-            "time": "2015-06-02T13:39:10+00:00"
+            "time": "2016-11-14T15:37:58+00:00"
         },
         {
             "name": "illuminate/support",
-            "version": "v5.0.33",
+            "version": "v5.3.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "32a12f97029b624fc0f9454e7ca69eaafef49c5d"
+                "reference": "050d0ed3e1c0e1d129d73b2eaa14044e46a66f77"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/32a12f97029b624fc0f9454e7ca69eaafef49c5d",
-                "reference": "32a12f97029b624fc0f9454e7ca69eaafef49c5d",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/050d0ed3e1c0e1d129d73b2eaa14044e46a66f77",
+                "reference": "050d0ed3e1c0e1d129d73b2eaa14044e46a66f77",
                 "shasum": ""
             },
             "require": {
-                "danielstjules/stringy": "~1.8",
                 "doctrine/inflector": "~1.0",
                 "ext-mbstring": "*",
-                "illuminate/contracts": "5.0.*",
-                "php": ">=5.4.0"
+                "illuminate/contracts": "5.3.*",
+                "paragonie/random_compat": "~1.4|~2.0",
+                "php": ">=5.6.4"
+            },
+            "replace": {
+                "tightenco/collect": "self.version"
             },
             "suggest": {
-                "jeremeamia/superclosure": "Required to be able to serialize closures (~2.0).",
-                "symfony/var-dumper": "Required to use the dd function (2.6.*)."
+                "illuminate/filesystem": "Required to use the composer class (5.2.*).",
+                "symfony/process": "Required to use the composer class (3.1.*).",
+                "symfony/var-dumper": "Required to use the dd function (3.1.*)."
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.0-dev"
+                    "dev-master": "5.3-dev"
                 }
             },
             "autoload": {
@@ -318,12 +268,12 @@
             "authors": [
                 {
                     "name": "Taylor Otwell",
-                    "email": "taylorotwell@gmail.com"
+                    "email": "taylor@laravel.com"
                 }
             ],
             "description": "The Illuminate Support package.",
-            "homepage": "http://laravel.com",
-            "time": "2015-06-04T12:15:51+00:00"
+            "homepage": "https://laravel.com",
+            "time": "2016-11-03T15:25:28+00:00"
         },
         {
             "name": "nesbot/carbon",
@@ -377,6 +327,54 @@
                 "time"
             ],
             "time": "2017-01-16T07:55:07+00:00"
+        },
+        {
+            "name": "paragonie/random_compat",
+            "version": "v2.0.11",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/paragonie/random_compat.git",
+                "reference": "5da4d3c796c275c55f057af5a643ae297d96b4d8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/5da4d3c796c275c55f057af5a643ae297d96b4d8",
+                "reference": "5da4d3c796c275c55f057af5a643ae297d96b4d8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.*|5.*"
+            },
+            "suggest": {
+                "ext-libsodium": "Provides a modern crypto API that can be used to generate random bytes."
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "lib/random.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Paragon Initiative Enterprises",
+                    "email": "security@paragonie.com",
+                    "homepage": "https://paragonie.com"
+                }
+            ],
+            "description": "PHP 5.x polyfill for random_bytes() and random_int() from PHP 7",
+            "keywords": [
+                "csprng",
+                "pseudorandom",
+                "random"
+            ],
+            "time": "2017-09-27T21:40:39+00:00"
         },
         {
             "name": "slim/slim",
@@ -486,16 +484,16 @@
         },
         {
             "name": "symfony/translation",
-            "version": "v3.3.10",
+            "version": "v3.3.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "409bf229cd552bf7e3faa8ab7e3980b07672073f"
+                "reference": "373e553477e55cd08f8b86b74db766c75b987fdb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/409bf229cd552bf7e3faa8ab7e3980b07672073f",
-                "reference": "409bf229cd552bf7e3faa8ab7e3980b07672073f",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/373e553477e55cd08f8b86b74db766c75b987fdb",
+                "reference": "373e553477e55cd08f8b86b74db766c75b987fdb",
                 "shasum": ""
             },
             "require": {
@@ -547,7 +545,7 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
-            "time": "2017-10-02T06:42:24+00:00"
+            "time": "2017-11-07T14:12:55+00:00"
         }
     ],
     "packages-dev": [],

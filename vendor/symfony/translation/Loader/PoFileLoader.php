@@ -122,10 +122,7 @@ class PoFileLoader extends FileLoader
      * Save a translation item to the messages.
      *
      * A .po file could contain by error missing plural indexes. We need to
-     * fix these before saving theme.
-     *
-     * @param array $messages
-     * @param array $item
+     * fix these before saving them.
      */
     private function addMessage(array &$messages, array $item)
     {
